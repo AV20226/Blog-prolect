@@ -157,10 +157,10 @@ input.header-search:focus{
     justify-content:left;
     align-items:center;
     width: 100%;
-    height: 660px;
+    height: 100%;
     background-image: url(../image/background-slider.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
    
 }
 
@@ -342,7 +342,7 @@ h2.meet-the-team{
 .team-mambers-information{
     display: flex;
     width: 100%;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 10px;
@@ -463,7 +463,8 @@ p.job-title{
     .bn-view-more, .bn-video-tuor{
         width: 40%;
         height: 40%;
-        margin-top: 10px;  
+        margin-top: 10px; 
+        margin-bottom: 10px; 
     }
     .we-are-modest-header{
         display: flex;
