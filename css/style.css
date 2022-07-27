@@ -278,7 +278,8 @@ p.text-number-header{
 .sotial-network-icons{
     background-color: #cccccc;
     width: 40px;
-    height: 40px;    
+    height: 40px;
+    
 
 }
 a{
@@ -399,6 +400,9 @@ p.job-title{
 /* ******************************* */
 /* mobile < xs 767px */
 @media(max-width:766px){
+    .container{
+        max-width: 720px;
+    }
    .col-xs-1{
         flex: 0 0 8.33333%;
         max-width: 8.33333%;
@@ -467,7 +471,7 @@ p.job-title{
         padding-top: 30px;
         padding-bottom: 30px;
     }
-    /* .text-we-are-modest{ */
+    .text-we-are-modest{
         /* display: inline-block;
         margin-top: 0;    
         color: #333333;
@@ -477,7 +481,7 @@ p.job-title{
         /* padding-left: 20px;
         line-height: 35px;
         border-left: 10px solid #cccccc; */
-    /* } */
+    }
 }
 /* *******************************************  */
 /* tablet => sm 767px */
